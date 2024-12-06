@@ -1,6 +1,6 @@
 # Tic Tac Toe React Web App
 
-### [Click Here to Play!](https://aguilartictactoe.netlify.app/)
+### [(Click Here to Play!)](https://aguilartictactoe.netlify.app/)
 ---
 ## Overview:
 
