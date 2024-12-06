@@ -4,6 +4,7 @@
 ---
 ## Overview:
 <img src="https://github.com/user-attachments/assets/b058b9fa-8e30-459d-8ae7-e56db9a8dcee" width="500" />
+
 The main grid displays a 3x3 layout for a standard Tic Tac Toe game.  
 - Player One is assigned the letter **A**, while Player Two uses the letter **B**.  
 - Players take turns placing their letters into the grid.  
