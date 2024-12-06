@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+  background: #ca8383;
+  border: 1px solid #999;
+  float: left;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 34px;
+  border-radius: 15px;
+  margin: 2px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  color: #ffffff;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button-reset {
+  background-color: #e07979;
+  border: none;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: bolder;
+  font-size: large;
+  border-radius: 8px;
+}
+
+.container-reset {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.number-match-board {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+}
+
+.header {
+  background-color: #f4c1c1;
+  height: 90px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.container-winner {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+#WinnerText {
+  margin: 10px;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.container-history {
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-turn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#PlayersTurn {
+  padding-top: 100px;
+  font-weight: bolder;
+  font-size: large;
+  padding: 27px;
+}
+
+#PlayersTurnLetter {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+.myName {
+  padding-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
