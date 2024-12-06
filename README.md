@@ -1,7 +1,11 @@
 # Tic Tac Toe React Web App
+---
 ## [Click Here to Play!](https://aguilartictactoe.netlify.app/)
+---
+## Overview:
 
-## Set Up Instructions
+---
+## Set Up Instructions:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ### Available Scripts
 In the project directory, you can run:
