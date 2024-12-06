@@ -4,9 +4,18 @@
 ---
 ## Overview:
 <img src="https://github.com/user-attachments/assets/b058b9fa-8e30-459d-8ae7-e56db9a8dcee" width="500" />
+The main grid displays a 3x3 layout for a standard Tic Tac Toe game.  
+- Player One is assigned the letter **A**, while Player Two uses the letter **B**.  
+- Players take turns placing their letters into the grid.  
+- A player wins whenever they successfully place three letters in a row: diagonally, vertically, or horizontally.  
+- When a player wins, a message pops up announcing which player has won the game.  
+- If no player wins by the 9th move, the game declares a draw.  
 
-
-
+### Additional Game Features  
+1. **Player's Turn Label**: Displays which player’s turn it is.  
+2. **History Data Grid**: Keeps track of all moves made. Players can "teleport" back to a previous move or move forward if the game has not progressed from the selected point.  
+3. **Reset Button**: Allows players to easily erase the game history and reset the game.
+   
 ---
 ## Set Up Instructions:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
