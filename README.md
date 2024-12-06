@@ -3,8 +3,9 @@
 ### [(Click Here to Play!)](https://aguilartictactoe.netlify.app/)
 ---
 ## Overview:
+<img src="https://github.com/user-attachments/assets/b058b9fa-8e30-459d-8ae7-e56db9a8dcee" width="500" />
 
-![image](https://github.com/user-attachments/assets/b058b9fa-8e30-459d-8ae7-e56db9a8dcee)
+
 
 ---
 ## Set Up Instructions:
